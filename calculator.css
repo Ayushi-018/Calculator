@@ -1,0 +1,94 @@
+.container{
+    
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    align-items: center;
+    height: 97vh;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    opacity: 0.5;
+    background-image: url(https://i.etsystatic.com/12214817/r/il/c7da13/1438765220/il_794xN.1438765220_5rn6.jpg);
+}
+.calculator{
+    font-size: 25px;
+    color: black;
+    border-radius: 20px;
+    opacity: 2;
+    background-color: rgb(0, 0, 0);
+    height: 620px;
+    width: 400px;
+}
+.calhistory{
+    border-radius: 10px;
+    
+}
+p{
+    font-size: 38px;
+    padding: 2px;
+}
+.history{
+    
+    align-items: center;
+    text-align: right;
+    border-radius: 10px;
+    margin: 10px 10px;
+    height: 50px;
+    background-color: rgb(219, 219, 213);
+}
+.result{
+    
+    text-align: right;
+    border-radius: 10px;
+    margin: 10px 10px;
+    height: 50px;
+    background-color: rgb(219, 219, 213)
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+.operator{
+    font-size: larger;
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+
+}
+.number{
+    font-weight: bold;
+    font-size: 35px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+}
+.empty{
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    opacity: 0.7;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+}
+#clear,#backspace{
+    background-color: rgb(255, 255, 255);
+}
+#remainder{
+    background-color: rgb(255, 251, 251);
+}
+button:nth-child(4){
+    background-color: rgb(255, 251, 251);
+}
+button:nth-child(8){
+    background-color: rgb(241, 231, 231);
+}
+button:nth-child(12){
+    background-color: rgb(0, 0, 0);
+}
+button:nth-child(16){
+    background-color: rgb(0, 0, 0);
+}
+button:nth-child(20){
+    background-color: rgb(0, 0, 0);
+}
